@@ -10,7 +10,7 @@ authors = [
 crate-type = ["lib"]
 
 [dependencies]
-curv = { git = "https://github.com/boazarad88/curv", tag="v0.2.2", features =  ["ec_secp256k1"] }
+curv = { git = "https://github.com/boazarad88/curv", features =  ["ec_secp256k1"] }
 bulletproof = {git = "https://github.com/boazarad88/bulletproofs" }
 serde_derive = "1.0"
 serde = "1.0"
